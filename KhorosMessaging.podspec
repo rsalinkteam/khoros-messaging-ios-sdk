@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "KhorosMessaging"
-  s.version               = "0.0.1"
+  s.version               = "1.12.0"
   s.summary               = "summary"
   s.homepage              = "homepage"
   s.author                = { "Khoros" => "pkwak@khoros.com" }
