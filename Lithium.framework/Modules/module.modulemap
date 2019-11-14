@@ -1,0 +1,6 @@
+framework module Lithium {
+  umbrella header "Lithium.h"
+
+  export *
+  module * { export * }
+}
