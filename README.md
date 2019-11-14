@@ -1,7 +1,7 @@
 # [Khoros Messaging](http://www.khoros.com)
 
 
-[![Pod Version](https://img.shields.io/badge/Version-0.0.1-8e8e8e)](https://github.com/lithiumtech/khoros-messaging-ios-sdk)
+[![Pod Version](https://img.shields.io/badge/Version-1.12.0-8e8e8e)](https://github.com/lithiumtech/khoros-messaging-ios-sdk)
 [![Platform](https://img.shields.io/badge/Platform-iOS-8e8e8e)](https://github.com/lithiumtech/khoros-messaging-ios-sdk)
 [![License](https://img.shields.io/badge/License-Website-8e8e8e)](https://www.khoros.com/privacy)
 
@@ -10,7 +10,7 @@ Khoros Messaging iOS SDK
 
 Add KhorosMessaging to podfile:
 
-    pod 'KhorosMessaging', :git => 'git@github.com:lithiumtech/khoros-messaging-ios-sdk.git', :tag => '0.0.1'
+    pod 'KhorosMessaging', :git => 'git@github.com:lithiumtech/khoros-messaging-ios-sdk.git', :tag => '1.12.0'
 
 Import Lithium:
 
