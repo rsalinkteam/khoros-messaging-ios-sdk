@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		3XoTyToI1rO6c9PmxlLBspSBFpU=
+		</data>
 		<key>Headers/Lithium.h</key>
 		<data>
-		hqWhSWUbMEd9VpB5RlYINeGl0uQ=
+		GsCuYksPOk294y0M1siM3CQXtIM=
 		</data>
 		<key>Headers/SMMAuthenticationDelegate.h</key>
 		<data>
@@ -42,7 +46,7 @@
 		</data>
 		<key>Headers/SMMSettings.h</key>
 		<data>
-		TyQSf8xqW6de5/VIEawOWQwIAAg=
+		seVMlHjobnTMbFRtb4NktyaRTXM=
 		</data>
 		<key>Headers/SMMUser.h</key>
 		<data>
@@ -50,7 +54,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NCeK3tiNF2j9Jr03ysqVQy9lapM=
+		rMNwjUT94ohKlFYo5NwOmNekFio=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -414,15 +418,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3XoTyToI1rO6c9PmxlLBspSBFpU=
+			</data>
+			<key>hash2</key>
+			<data>
+			4T3vDhvSrjdvpmgiGWYgE5qpsrxwuKntyXLyzuei3HM=
+			</data>
+		</dict>
 		<key>Headers/Lithium.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hqWhSWUbMEd9VpB5RlYINeGl0uQ=
+			GsCuYksPOk294y0M1siM3CQXtIM=
 			</data>
 			<key>hash2</key>
 			<data>
-			pas9slBnBreakorLU0cmirb8FhTjVIv1WFDBbaMBjGk=
+			CZxrkg0i08sAWdYAVzUAMjlj0FYc65V4ZKtvzJELLBI=
 			</data>
 		</dict>
 		<key>Headers/SMMAuthenticationDelegate.h</key>
@@ -517,11 +532,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TyQSf8xqW6de5/VIEawOWQwIAAg=
+			seVMlHjobnTMbFRtb4NktyaRTXM=
 			</data>
 			<key>hash2</key>
 			<data>
-			1q1JAajkQQUNoQ3nxSQI0b9yB0W83KSv/BZcaiR9aCY=
+			lpCJgEdpYijKuyYMhnIGyZex6HCY9OEWZjqzLYtpFMA=
 			</data>
 		</dict>
 		<key>Headers/SMMUser.h</key>
@@ -1302,7 +1317,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -1333,24 +1348,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -1386,13 +1389,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

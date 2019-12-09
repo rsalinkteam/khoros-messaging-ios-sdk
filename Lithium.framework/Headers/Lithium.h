@@ -2,7 +2,7 @@
 //  Lithium.h
 //  Lithium
 //
-//  version : 1.12.0
+//  version : 2.1.1
 
 #import <Foundation/Foundation.h>
 #import "SMMConversation.h"
@@ -12,7 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 @protocol UNUserNotificationCenterDelegate;
 
-#define LITHIUM_VERSION @"1.12.0"
+#define LITHIUM_VERSION @"2.1.1"
 #define VENDOR_ID @"lithium"
 
 FOUNDATION_EXPORT double LithiumVersionNumber;
